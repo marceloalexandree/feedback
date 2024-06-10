@@ -7,11 +7,19 @@ export const CardContainer = styled.div`
     border-radius: 3rem;
 
     h1 {
-    font-size: 2.8rem;
-    color: ${props => props.theme.white};
-    margin-bottom: 1.5rem;
-    text-align:center;
+        font-size: 2.8rem;
+        color: ${props => props.theme.white};
+        margin-bottom: 1.5rem;
+        text-align:center;
     }
+
+    p{
+        font-size: 1.5rem;
+        line-height: 2.4rem;
+        color: ${props => props.theme.textColor};
+        text-align:center;
+    }
+    
 `
 export const IconContainer = styled.div``
 
